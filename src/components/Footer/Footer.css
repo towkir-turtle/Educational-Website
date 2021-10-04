@@ -9,5 +9,9 @@
 }
 .footer-text {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
+}
+.send-btn {
+  padding: 6px 30px;
+  margin-left: 3px;
 }

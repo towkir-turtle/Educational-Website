@@ -43,7 +43,7 @@ const Footer = () => {
               >
                 <Form.Label>Your Message</Form.Label>
                 <Form.Control as="textarea" rows={3} />
-                <Button>Send</Button>
+                <Button className="send-btn">Send</Button>
               </Form.Group>
             </Form>
           </Col>

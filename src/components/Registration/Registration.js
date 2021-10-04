@@ -46,7 +46,7 @@ const Registration = () => {
                 <Form.Control type="password" />
               </Form.Group>
             </Form>
-            <Button>SIGN UP NOW!</Button>
+            <Button className="signup-btn">SIGN UP NOW!</Button>
           </Col>
           <Col>
             <img src={student} alt="" />

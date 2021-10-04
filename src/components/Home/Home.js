@@ -3,6 +3,7 @@ import "./Home.css";
 import background from "../../images/background.jpg";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Course from "../Courses/Course";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
@@ -36,9 +37,11 @@ const Home = () => {
               imperdiet.
             </p>
             <div className="btn">
-              <Button className="btn-1">Our Course</Button>
+              <Button className="btn-1">
+                <NavLink className="link" to="/services">Services</NavLink>
+              </Button>
               <Button className="btn-2" variant="outline-primary">
-                Contact Us
+                <NavLink className="link" to="/registration">Registration</NavLink>
               </Button>
             </div>
           </div>
