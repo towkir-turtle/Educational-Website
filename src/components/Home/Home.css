@@ -3,9 +3,10 @@
 }
 .courses h2 {
   text-align: center;
+  color: #ef5f5f;
 }
 .course-line {
-  border: 1px solid #ef5f5f;
+  border: 1px solid #0c5397;
   width: 300px;
   margin: 0 auto 40px auto;
 }

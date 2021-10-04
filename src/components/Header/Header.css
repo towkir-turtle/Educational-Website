@@ -9,16 +9,11 @@
   font-weight: 700;
   margin-top: 10px;
 }
-/* .row {
-  max-width: 1140px;
-  margin: 0 auto;
-} */
 ul {
   float: right;
   display: flex;
   line-height: 60px;
 }
-
 li {
   margin-left: 20px;
   list-style-type: none;
