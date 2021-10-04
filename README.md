@@ -1,6 +1,6 @@
 # edureka!
 
-Project Link: [edureka-turtle.netlify.app](https://github.com/facebook/create-react-app).
+Project Link: [edureka-turtle.netlify.app](https://edureka-turtle.netlify.app/).
 
 ## What We Do:
 
