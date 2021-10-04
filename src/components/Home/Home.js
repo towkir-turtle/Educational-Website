@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import background from "../../images/background.jpg";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Course from "../Courses/Course";
 
 const Home = () => {
@@ -25,30 +25,35 @@ const Home = () => {
           opacity: "0.8",
         }}
       >
-        <div className="little-description">
-          <h1>
-            <span>Education</span> & Training Organization.
-          </h1>
-          <p>
-            Education & Training Organization. we proviet best education system
-            for you amet mauris lobortis mauris inceptos eget. Urna imperdiet.
-          </p>
-          <div className="btn">
-            <Button className="btn-1">Our Course</Button>
-            <Button className="btn-2" variant="outline-primary">
-              Contact Us
-            </Button>
+        <Container>
+          <div className="little-description">
+            <h1>
+              <span>Education</span> & Training Organization.
+            </h1>
+            <p>
+              Education & Training Organization. we proviet best education
+              system for you amet mauris lobortis mauris inceptos eget. Urna
+              imperdiet.
+            </p>
+            <div className="btn">
+              <Button className="btn-1">Our Course</Button>
+              <Button className="btn-2" variant="outline-primary">
+                Contact Us
+              </Button>
+            </div>
           </div>
-        </div>
+        </Container>
       </div>
       <div className="courses">
-        <h2>Our Popular Courses</h2>
-        <hr className="course-line" />
-        <Row xs={1} md={4} className="g-4">
-          {courses.map((course) => (
-            <Course key={course.id} course={course}></Course>
-          ))}
-        </Row>
+        <Container>
+          <h2>Our Popular Courses</h2>
+          <hr className="course-line" />
+          <Row xs={1} md={4} className="g-4">
+            {courses.map((course) => (
+              <Course key={course.id} course={course}></Course>
+            ))}
+          </Row>
+        </Container>
       </div>
     </div>
   );

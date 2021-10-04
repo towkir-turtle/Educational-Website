@@ -1,20 +1,22 @@
-.header {
-  display: flex;
-  height: 60px;
+.navbar {
+  height: 80px;
   background: #0c5397;
-  justify-content: space-around;
+  padding-bottom: 20px;
 }
 .logo {
+  float: left;
   color: #fff;
   font-weight: 700;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
-ul {
+.nav {
   float: right;
-  display: flex;
-  line-height: 60px;
 }
-li {
+.nav ul {
+  display: flex;
+  line-height: 55px;
+}
+.nav ul li {
   margin-left: 20px;
   list-style-type: none;
   text-decoration: none;

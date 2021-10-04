@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import "./Services.css";
 import Service from "../Service/Service";
 
@@ -15,13 +15,15 @@ const Services = () => {
   }, []);
   return (
     <div className="services">
-      <h2>All Courses</h2>
-      <hr className="service-line" />
-      <Row xs={1} md={4} className="g-4">
-        {services.map((service) => (
-          <Service key={service.id} service={service}></Service>
-        ))}
-      </Row>
+      <Container>
+        <h2>All Courses</h2>
+        <hr className="service-line" />
+        <Row xs={1} md={4} className="g-4">
+          {services.map((service) => (
+            <Service key={service.id} service={service}></Service>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 };

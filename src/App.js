@@ -5,14 +5,14 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import Registration from "./components/Registration/Registration";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div classNamee="container">
       <Router>
-        <Header></Header>
+        <Navbar></Navbar>
         <Switch>
           <Route exact path="/">
             <Home></Home>
