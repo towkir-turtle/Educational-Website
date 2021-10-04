@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author4.jpg",
+        "name": "Robot Max",
+        "designation": "Jr Instructor"
+    },
+    {
+        "id": 2,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author3.jpg",
+        "name": "Alannah Varly",
+        "designation": "Instructor"
+    },
+    {
+        "id": 3,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author2.jpg",
+        "name": "J Renx",
+        "designation": "Ext Instructor"
+    },
+    {
+        "id": 4,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author.jpg",
+        "name": "L Bohan",
+        "designation": "Teacher"
+    },
+    {
+        "id": 5,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author5.jpg",
+        "name": "Jaxon Tucker",
+        "designation": "Instructor"
+    },
+    {
+        "id": 4,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author.jpg",
+        "name": "L Bohan",
+        "designation": "Teacher"
+    },
+    {
+        "id": 4,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author.jpg",
+        "name": "L Bohan",
+        "designation": "Teacher"
+    },
+    {
+        "id": 4,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author.jpg",
+        "name": "L Bohan",
+        "designation": "Teacher"
+    },
+    {
+        "id": 4,
+        "img": "https://demo.themeix.com/html/eduzone/images/testimonial-author.jpg",
+        "name": "L Bohan",
+        "designation": "Teacher"
+    }
+   
+]

@@ -1,0 +1,23 @@
+import React from "react";
+import { Card, Col } from "react-bootstrap";
+import "./Service.css";
+
+const Service = (props) => {
+  const { img, course, instructor, price } = props.service;
+  return (
+    <div>
+      <Col>
+        <Card>
+          <Card.Img variant="top" src={img} />
+          <Card.Body>
+            <Card.Title>{course}</Card.Title>
+            <Card.Text>{instructor}</Card.Text>
+            <p>${price}</p>
+          </Card.Body>
+        </Card>
+      </Col>
+    </div>
+  );
+};
+
+export default Service;

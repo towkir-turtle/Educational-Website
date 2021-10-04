@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ytimg.com/vi/o1IaduQICO0/maxresdefault.jpg",
+        "course": "Javascript",
+        "instructor": "Dr. Angela Yu",
+        "price": 13.99
+    },
+    {
+        "id": 2,
+        "img": "https://i.ytimg.com/vi/WvhQhj4n6b8/maxresdefault.jpg",
+        "course": "Python",
+        "instructor": "Ardit Sulce",
+        "price": 12.99
+    },
+    {
+        "id": 3,
+        "img": "https://i.ytimg.com/vi/BClS40yzssA/maxresdefault.jpg",
+        "course": "C++",
+        "instructor": "Jose Portilla",
+        "price": 15.99
+    },
+    {
+        "id": 4,
+        "img": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/01/what-is-java-000.png",
+        "course": "Java",
+        "instructor": "Stephen Grider",
+        "price": 19.99
+    },
+    {
+        "id": 5,
+        "img": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/how-to-run-php-program.jpg",
+        "course": "PHP",
+        "instructor": "Rahul Shetty",
+        "price": 10.99
+    },
+    {
+        "id": 6,
+        "img": "https://www.edureka.co/blog/wp-content/uploads/2019/10/C-Tutorial-Edureka-Datatypes.png",
+        "course": "C#",
+        "instructor": "Jonas Schmedtmann",
+        "price": 16.99
+    },
+    {
+        "id": 7,
+        "img": "https://i.ytimg.com/vi/Q0sKAMal4WQ/maxresdefault.jpg",
+        "course": "Go",
+        "instructor": "Colt Stelle",
+        "price": 14.99
+    },
+    {
+        "id": 8,
+        "img": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/09/Swift-Tutorial.jpg",
+        "course": "Swift",
+        "instructor": "Tim Buchalka",
+        "price": 11.99
+    }
+]

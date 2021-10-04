@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  height: 60px;
+  background: #0c5397;
+  justify-content: space-around;
+}
+.logo {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+/* .row {
+  max-width: 1140px;
+  margin: 0 auto;
+} */
+ul {
+  float: right;
+  display: flex;
+  line-height: 60px;
+}
+
+li {
+  margin-left: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-item {
+  text-decoration: none;
+  color: #ef5f5f;
+  font-weight: 500;
+}
+.nav-item:hover {
+  color: #fff;
+}
