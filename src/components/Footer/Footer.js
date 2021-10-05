@@ -8,13 +8,13 @@ const Footer = () => {
       <Container>
         <Row>
           <Col>
-            <h2>edureka!</h2>
+            <h3>edureka!</h3>
             <p>35/37 Ludgate Hill, London, EC4M 7JN.</p>
             <p>office@companyaddress.co.uk</p>
             <p>+44 (0) 20 72489249</p>
           </Col>
           <Col>
-            <h2>Quick Link</h2>
+            <h3>Quick Link</h3>
             <li>
               <a href="http://">Register And Account</a>
             </li>

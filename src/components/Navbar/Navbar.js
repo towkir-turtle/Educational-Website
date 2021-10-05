@@ -5,6 +5,9 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const activeStyle = {
+    color: "#fff",
+  };
   return (
     <div className="navbar">
       <Container>
@@ -15,22 +18,38 @@ const Navbar = () => {
           <div className="nav">
             <ul>
               <li>
-                <NavLink className="nav-item" to="/home">
+                <NavLink
+                  activeStyle={activeStyle}
+                  className="nav-item"
+                  to="/home"
+                >
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-item" to="/about">
+                <NavLink
+                  activeStyle={activeStyle}
+                  className="nav-item"
+                  to="/about"
+                >
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-item" to="/services">
+                <NavLink
+                  activeStyle={activeStyle}
+                  className="nav-item"
+                  to="/services"
+                >
                   Services
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-item" to="/registration">
+                <NavLink
+                  activeStyle={activeStyle}
+                  className="nav-item"
+                  to="/registration"
+                >
                   Registration
                 </NavLink>
               </li>

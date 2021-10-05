@@ -13,6 +13,7 @@ const Course = (props) => {
             <Card.Title>{course}</Card.Title>
             <Card.Text>{instructor}</Card.Text>
             <p>${price}</p>
+            <a className="link-btn">Enroll Now</a>
           </Card.Body>
         </Card>
       </Col>

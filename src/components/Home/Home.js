@@ -37,12 +37,13 @@ const Home = () => {
               imperdiet.
             </p>
             <div className="btn">
-              <Button className="btn-1">
-                <NavLink className="link" to="/services">Services</NavLink>
-              </Button>
-              <Button className="btn-2" variant="outline-primary">
-                <NavLink className="link" to="/registration">Registration</NavLink>
-              </Button>
+              <NavLink className="link-1" to="/services">
+                Services
+              </NavLink>
+
+              <NavLink className="link-2" to="/registration">
+                Registration
+              </NavLink>
             </div>
           </div>
         </Container>

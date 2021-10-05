@@ -4,7 +4,9 @@
   text-align: center;
 }
 .about h2 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: #ef5f5f;
 }
 .about h4 {
   margin-bottom: 15px;

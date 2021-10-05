@@ -29,15 +29,30 @@
 }
 .btn {
   margin-top: 20px;
-  margin-left: -15px;
-  padding: 8px 24px;
-  color: #fff;
+  margin-left: -10px;
 }
-.btn .link {
-  color: #fff;
+.link-1 {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  background: #ef5f5f;
+  color: #fff;
+  padding: 13px 40px;
+  cursor: pointer;
+  margin-right: 15px;
 }
-.btn-1 {
-  margin-right: 30px;
+.link-1:hover {
+  background: #fff;
+  color: #ef5f5f;
+}
+.link-2 {
+  padding: 13px 40px;
+  outline: 1px solid #fff;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.link-2:hover {
+  background: #ef5f5f;
+  color: #fff;
 }
